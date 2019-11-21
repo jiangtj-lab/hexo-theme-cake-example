@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "git submodule init && git submodule update && hexo generate"
+    "build": "git init && git submodule init && git submodule update && hexo generate"
   },
   "hexo": {
     "version": "4.0.0"
