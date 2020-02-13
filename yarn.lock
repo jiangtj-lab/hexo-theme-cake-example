@@ -1032,13 +1032,16 @@ hexo-bunyan@^2.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-cake-local-search@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.2.3.tgz#6cfbe86f7705b62b9dc6388482e4eb81b6ffe56d"
-  integrity sha512-79rfvaOPWW2yGleXVEtadxcnaM2qat6IHkDtb3NUe1rSDvBaw3083INopDc7ArcyKWpALYFQBqkXwas0DiG29Q==
+hexo-cake-local-search@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/hexo-cake-local-search/-/hexo-cake-local-search-4.0.2.tgz#a85757f1cd8a1df19526e2beecaf366839f23fbd"
+  integrity sha512-L8wQTs0HDytvchnyNeX3mGg8puIi9HZ6efnJn/dKczyXKlijLuYtmr1zTryfYEx0IZhUaZyfOamoGf5fSESz0Q==
   dependencies:
-    hexo-cake-utils "^1.1.0"
-    hexo-generator-searchdb "^1.1.0"
+    ejs "^3.0.1"
+    hexo-cake-utils "^1.2.1"
+    hexo-extend-injector2 "^0.1.3"
+    hexo-generator-searchdb "^1.2.0"
+    hexo-util "^1.8.1"
     js-yaml "^3.13.1"
 
 hexo-cake-moon-menu@^2.0.0:
@@ -1050,10 +1053,10 @@ hexo-cake-moon-menu@^2.0.0:
     hexo-extend-injector2 "^0.1.3"
     hexo-util "^1.8.1"
 
-hexo-cake-utils@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.1.1.tgz#79805e924f6b2363d77160fc3b169c9618fd7d64"
-  integrity sha512-b1dUkJ5i9FWAzustRsshGoVY8zXTuXdO9t3EaBm+mzicKpjg3DuTt1ZLlEz/GHWcmZCBTQbrmMHjDCClJyAY4Q==
+hexo-cake-utils@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-cake-utils/-/hexo-cake-utils-1.2.1.tgz#4c53c4d88a4be7dc5d966cb2c0082f71178ce0c8"
+  integrity sha512-Fe53AEi49+Ttz2+6gIIDEjB4zxk5FqyMYqzLif3nNwx2ioL9zUz9CjrZzgdgbEgipnFMQp38/mkqDR6agz6heA==
   dependencies:
     js-yaml "^3.13.1"
 
@@ -1119,9 +1122,9 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-searchdb@^1.1.0:
+hexo-generator-searchdb@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.npmjs.org/hexo-generator-searchdb/-/hexo-generator-searchdb-1.2.0.tgz#ebf1ec38be78d447d4ae7b7f358d312473a7a90b"
+  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.2.0.tgz#ebf1ec38be78d447d4ae7b7f358d312473a7a90b"
   integrity sha512-/3R5cH7McZlNgkesGzdCJXAnabf8lJvWCojcRM3jTs/P+bpiKqiKanZjINSjMHoXW+05S2ccI1bJnWDS6Z3zgA==
   dependencies:
     nunjucks "^3.2.0"
