@@ -7,8 +7,9 @@
   },
   "dependencies": {
     "hexo": "^4.2.0",
+    "hexo-cake-canvas-ribbon": "^2.0.0",
     "hexo-cake-local-search": "^4.1.0",
-    "hexo-cake-moon-menu": "^2.1.0",
+    "hexo-cake-moon-menu": "^2.2.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
