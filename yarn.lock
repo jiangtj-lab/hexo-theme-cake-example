@@ -680,10 +680,10 @@ hexo-cake-local-search@^4.2.0:
     hexo-util "^2.0.0"
     js-yaml "^3.13.1"
 
-hexo-cake-moon-menu@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-2.3.0.tgz#9f50856122b8ec8d4aea0f67c482eb167c162fba"
-  integrity sha512-ACrg/raTSORj2srT01/Sc+bopRsdzCcTGdNp9M2TatOnMWw61KCIuaQovxhajiW6UaaKE7gFZQ2PAjjW/7eQ7Q==
+hexo-cake-moon-menu@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-2.3.1.tgz#93f89ad216419211eea1e59625c22f972e22a9d0"
+  integrity sha512-9feHg4xyoGM04RCllpDdul1v8o3VKWn9wgjOKyJwCBmAB1PpDS24WytkyXZ2dM2voBMjJZPQVioQZbr504KRQQ==
   dependencies:
     ejs "^3.0.1"
     hexo-extend-injector2 "^0.1.6"
@@ -854,10 +854,10 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
-hexo-theme-cake@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-theme-cake/-/hexo-theme-cake-2.2.0.tgz#511c43b7742b230ffbd583eb77e59433b5d0cb79"
-  integrity sha512-Vxe9umKU15kh1Dew7lCADn3ajP2X1Qz2H8TfFCk21DtmrYrB/+gx4RMQUN4PrH8gz4ctnuEryio4COeut4mjqg==
+hexo-theme-cake@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-theme-cake/-/hexo-theme-cake-2.2.1.tgz#e2b237e5c6ee4e86b6f95b1b1c65f6f60b88cb6e"
+  integrity sha512-rJdy2ruCRJidt5ViHpYREcj1O7keaFDz0IJab1xQXdIk5Agi4+gtIdE9et0oID77NA7Fud5Y27wQ1hjHjB3pbw==
   dependencies:
     "@jiangtj/hexo-renderer-marked" "^2.0.1"
     "@jiangtj/hexo-renderer-stylus" "^1.1.0"
@@ -943,9 +943,9 @@ hexo@^4.2.0:
     warehouse "^3.0.1"
 
 highlight.js@^10.0.0:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.0.2.tgz#d2c732544f8f68bceaf0cefb4b0575bce8eddbee"
-  integrity sha512-2gMT2MHU6/2OjAlnaOE2LFdr9dwviDN3Q2lSw7Ois3/5uTtahbgYTkr4EPoY828ps+2eQWiixPTF8+phU6Ofkg==
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.0.3.tgz#5effcc58420f113f279a0badb8ac50c4be06e63b"
+  integrity sha512-9FG7SSzv9yOY5CGGxfI6NDm7xLYtMOjKtPBxw7Zff3t5UcRcUNTGEeS8lNjhceL34KeetLMoGMFTGoaa83HwyQ==
 
 highlight.js@^9.13.1, highlight.js@^9.18.1:
   version "9.18.1"
