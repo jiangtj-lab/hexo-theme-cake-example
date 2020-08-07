@@ -252,9 +252,9 @@ cheerio@^1.0.0-rc.3:
     parse5 "^3.0.1"
 
 chokidar@^3.0.0, chokidar@^3.3.0:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.1.tgz#e905bdecf10eaa0a0b1db0c664481cc4cbc22ba1"
-  integrity sha512-TQTJyr2stihpC4Sya9hs2Xh+O2wf+igjL36Y75xx2WdHuiICcn/XJza46Jwt0eT5hVpQOzo3FpY3cj3RVYLX0g==
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.2.tgz#38dc8e658dec3809741eb3ef7bb0a47fe424232d"
+  integrity sha512-IZHaDeBeI+sZJRX7lGcXsdzgvZqKv6sECqsbErJA4mHWfpRrD8B97kSFN4cQz6nGBGiuFia1MKR4d6c1o8Cv7A==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -775,14 +775,14 @@ hexo-extend-injector2@^0.1.0:
     terser "^4.6.6"
 
 hexo-extend-injector2@^0.2.0, hexo-extend-injector2@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-extend-injector2/-/hexo-extend-injector2-0.2.1.tgz#89b15f7723017ab98967d0fd09cbd5b08e2db579"
-  integrity sha512-bHHO6MGW6e15jAbSTmRAAcwTZ7SdBCZQzaFNWjPcB2hdR+WAqbneJ6e6wNDezc4weIJ4c74RIKgGWIQhFbegyg==
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/hexo-extend-injector2/-/hexo-extend-injector2-0.2.3.tgz#55b4c2abe31a707bf4e372824721313fc6b1719d"
+  integrity sha512-hkmPj8/MMPFX1/GzIYRG8lsC6J4c8PX/VOXrYaFsWgOP8EZTHYSbdvoh6og3avrcG1sMUxbF2QGix7JKRSSDkQ==
   dependencies:
     clean-css "^4.2.3"
     hexo-util "^2.0.0"
     lodash "^4.17.15"
-    terser "^4.6.6"
+    terser "^5.0.0"
 
 hexo-fontawesome@^2.1.0:
   version "2.1.0"
@@ -873,14 +873,6 @@ hexo-renderer-ejs@^1.0.0:
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-marked@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.0.0.tgz#4c9c5ff7d2e7887057891b2db9df9c39187e1fe5"
-  integrity sha512-7d2kW9N/86I1eNRE6quD5jd7GcwE3xspbswOc7UxQqBoJ/52VZrYCH6fxGTnuhFU5MOnRgilZso2dqkujwsnYQ==
-  dependencies:
-    hexo-util "^2.1.0"
-    marked "^1.0.0"
-
 hexo-renderer-stylus@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#7a0a107bcf4b74fdf88f28da2db47b8dc9e208e5"
@@ -904,9 +896,9 @@ hexo-server@^1.0.0:
     serve-static "^1.14.1"
 
 hexo-theme-cake@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/hexo-theme-cake/-/hexo-theme-cake-3.1.4.tgz#0a488258ba4823ca0585fffa276c9c2ff3da3208"
-  integrity sha512-sFPl8ykZ1l8kw7HTiijYszoRwL4rgRQIDNd0VDzFSGvPLatxWJ9T9S8N0zryi4F36W+iRbblOJsEHOxn4+8Slg==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/hexo-theme-cake/-/hexo-theme-cake-3.1.5.tgz#6b5e041e3bf5e3e845fa1d97c6c0c1409dbbc06a"
+  integrity sha512-pfndF9C4W/FoSH+0QXxdD6xYy07q6xJPvNMH20NNflxNVrL2TsSSqLQ6Uv2oH7CWo2eeUe85uSlp5VKIkjHsvQ==
   dependencies:
     "@jiangtj/hexo-patch-load-highlight-style" "^1.1.0"
     ajv "^6.12.3"
@@ -914,6 +906,7 @@ hexo-theme-cake@^3.1.4:
     hexo-extend-injector2 "^0.2.1"
     hexo-fontawesome "^2.1.0"
     hexo-renderer-ejs "^1.0.0"
+    hexo-renderer-stylus "^1.1.0"
     hexo-util "^2.2.0"
     inquirer "^7.3.3"
     js-yaml "^3.14.0"
@@ -923,7 +916,7 @@ hexo-theme-cake@^3.1.4:
     medium-zoom "^1.0.6"
     semver "^7.3.2"
 
-hexo-util@^2.0.0, hexo-util@^2.1.0, hexo-util@^2.2.0:
+hexo-util@^2.0.0, hexo-util@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-2.2.0.tgz#5372864457d716c3f4553babf22e6da51690806a"
   integrity sha512-ERYPhehtWKYo2Wkf2e11iwub10rxHvCdJt4FNnBzjuUV7MEfSphpFNXJ3yyBAQgHPr7ce9ZPb7SEbMdyZL159w==
@@ -1132,7 +1125,7 @@ lozad@^1.15.0:
   resolved "https://registry.yarnpkg.com/lozad/-/lozad-1.15.0.tgz#cdab34e0e00eaecd3972129880560f5885a1a7bf"
   integrity sha512-P60iyIiud4XSH5SXxrgPCXoebEaT6SYAvRBgeMBZPYmWVRSfOhQks8ZmyZ/WFgDgwvrHnWffXw9HMg8G0gvt0w==
 
-marked@^1.0.0, marked@^1.1.1:
+marked@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/marked/-/marked-1.1.1.tgz#e5d61b69842210d5df57b05856e0c91572703e6a"
   integrity sha512-mJzT8D2yPxoPh7h0UXkB+dBj4FykPJ2OIfxAWeIHrvoHDkFxukV/29QxoFQoPM6RLEwhIFdJpmKBlqVM3s2ZIw==
@@ -1312,9 +1305,9 @@ once@^1.3.0:
     wrappy "1"
 
 onetime@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.0.tgz#fff0f3c91617fe62bb50189636e99ac8a6df7be5"
-  integrity sha512-5NcSkPHhwTVFIQN+TUqXoS5+dlElHXdpAWu9I0HP20YOtIi+aZ0Ct82jdlILDxjLEAWwvm+qj1m6aEtsDVmm6Q==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/onetime/-/onetime-5.1.1.tgz#5c8016847b0d67fcedb7eef254751cfcdc7e9418"
+  integrity sha512-ZpZpjcJeugQfWsfyQlshVoowIIQ1qBGSVll4rfDq6JJVO//fesjoX808hXWfBjY+ROZgpKDI5TRSRBSoJiZ8eg==
   dependencies:
     mimic-fn "^2.1.0"
 
@@ -1381,9 +1374,9 @@ prism-themes@^1.4.0:
   integrity sha512-VTy6t69sS1FavspBsodoF/x/eduPydUXyZH+++Jkun0VQ4X7lCZVvsfGsYKzkUan2PJNcV2mA4lAFcr7KKXD1g==
 
 prismjs@^1.17.1:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha512-AEDjSrVNkynnw6A+B1DsFkd6AVdTnp+/WoUixFRULlCLZVRZlVQMVWio/16jv7G1FscUxQxOQhWwApgbnxr6kQ==
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
+  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -1444,9 +1437,9 @@ run-async@^2.4.0:
   integrity sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==
 
 rxjs@^6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.0.tgz#af2901eedf02e3a83ffa7f886240ff9018bbec84"
-  integrity sha512-3HMA8z/Oz61DUHe+SdOiQyzIf4tOx5oQHmMir7IZEu6TMqCLHT4LRcmNaUS0NwOz8VLvmmBduMsoaUvMaIiqzg==
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.2.tgz#8096a7ac03f2cc4fe5860ef6e572810d9e01c0d2"
+  integrity sha512-BHdBMVoWC2sL26w//BCu3YzKT4s2jip/WhwsGEDmeKYBhKDZeYezVUnHatYB7L85v5xs0BAQmg6BEYJEKxBabg==
   dependencies:
     tslib "^1.9.0"
 
@@ -1676,6 +1669,15 @@ terser@^4.6.6:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
   integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  dependencies:
+    commander "^2.20.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.12"
+
+terser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.0.0.tgz#269640e4e92f15d628de1e5f01c4c61e1ba3d765"
+  integrity sha512-olH2DwGINoSuEpSGd+BsPuAQaA3OrHnHnFL/rDB2TVNc3srUbz/rq/j2BlF4zDXI+JqAvGr86bIm1R2cJgZ3FA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
